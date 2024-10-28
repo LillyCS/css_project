@@ -25,6 +25,7 @@ h1{
     margin: auto;
     color: white;
     position: relative;
+    padding-bottom: 25px;
 }
 
 .content-pic h2{
@@ -94,4 +95,38 @@ li a:hover{ /* pseudoclass */
 /* when you click on the link */
 li a:active{ 
     background-color: #637488;
+}
+
+.education-programs {
+    display: flex;
+    flex-wrap: wrap; /* flex items will wrap onto multiple lines, from top to bottom */
+    gap: 10px; /* gap between boxed */
+    justify-content: center;
+    padding: 10px; /* space from edges of screen */
+}
+
+.program {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    flex: 1 1 calc(30%); /* Responsive sizing */
+    min-width: 250px; /* Minimum width for smaller screens */
+}
+
+.program h2 {
+    color: #2c3e50;
+}
+
+.program p {
+    color: #34495e;
+}
+
+.program a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.program a:hover {
+    text-decoration: underline;
 }
