@@ -17,6 +17,9 @@ body{
 h1{
     font-family: "Apple Chancery", cursive;
     font-size: 2em;
+    
+    margin-left: 5vw;
+    
 }
 
 .content-pic{
