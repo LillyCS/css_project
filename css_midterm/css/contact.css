@@ -1,0 +1,23 @@
+
+.contain {
+    border: 2px black;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: auto;
+
+  }
+ .contain > div {
+    flex: 1; /* Make div flexible */
+    margin: 10px; /* Add space between flex items */
+    width: 65%;
+    background-color: tan;
+    padding: 20px; /* Add padding inside the boxes */
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
