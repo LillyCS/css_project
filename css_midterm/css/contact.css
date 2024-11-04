@@ -21,3 +21,23 @@ ul {
     text-align: center;
     list-style-position: inside;
 }
+
+/* phone media */
+@media (max-width: 480px) {
+    .contain > div {
+        width: 100%; /* Make divs full on small screen */
+    }
+
+    h1, h2, h3, h4 {
+        font-size: 1em; /*smaller font */
+    }
+
+    ul {
+        padding-left: 0; /* Remove padding */
+        margin-left: 0; /* Remove left margin */
+    }
+
+    .contain {
+        padding: 5px; /* smaller padding */
+    }
+}
