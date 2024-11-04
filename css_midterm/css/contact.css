@@ -51,7 +51,7 @@ ul {
     height: auto; 
 }
 /* phone media */
-@media (max-width: 480px) {
+@media (max-width: 400px) {
     .contain > div {
         width: 100%; /* Make divs full on small screen */
     }
