@@ -9,7 +9,9 @@ h2 {text-align: center;
     background-color: black;
   }
   
-  
+  .center {
+    text-align: center;
+  }
   
   .item {
     flex: 1 0 45%; 
