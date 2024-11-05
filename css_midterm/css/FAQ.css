@@ -8,6 +8,8 @@ h1{
 
 h2{
     text-align: center;
+    background-color: tan;
+    margin: 3vh 10vw;
 }
 
 .description , h3, h4{
