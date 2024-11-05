@@ -32,10 +32,6 @@ h1{
     margin-left: 5vw;
 }
 
-h2{
-    text-align: center;
-    background-color: tan;
-}
 
 #dei{
     margin: 0vh 10vw;
@@ -50,4 +46,9 @@ h2{
     margin: 0vh 10vw;
     margin-bottom: 10vh;
     
+}
+
+h2{
+    text-align: center;
+    background-color: tan;
 }
