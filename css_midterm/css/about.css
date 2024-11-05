@@ -4,7 +4,6 @@
 }
 
 img{
-    min-width: none;
     /* center images */
     display: block;
     margin-left: auto;
@@ -42,7 +41,7 @@ h2{
 }
 
 #aboutSection{
-    margin-bottom: 5vh 10vw;
+    margin-bottom: 10vw;
     margin: 0vh 10vw;
 }
 
