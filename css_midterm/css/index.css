@@ -4,12 +4,11 @@ body{
 }
 
 .main{
-    width: 100%;
+    width: auto;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../images/Catherine-Jason-Sinn-1920x400-1.jpg);
     background-position: center;
     background-size: cover;
     height: 65vh;
-
     color:white;
     padding-left: 50px;
 }
@@ -43,7 +42,7 @@ h1{
 
 .content-pic .par{
     letter-spacing: 1.2px;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
 }
 
 .content-pic .cn{
@@ -61,7 +60,6 @@ h1{
 .content-pic .cn a{
     text-decoration: none;
     color: white;
-    /* transition: .3s ease; */
 }
 
 .cn:hover{
@@ -77,6 +75,7 @@ nav ul{
     justify-content: flex-end; /* moves content to the right */
 }
 
+
 h1 a{
     text-decoration: none; /* gets rid of underline */
     color: black;
@@ -86,7 +85,6 @@ li a{
     text-decoration: none; /* gets rid of underline */
     color:white;
     padding: 15px 30px; /* first value: top/bottom , second value: left/right*/
-    /* font-family: "Sixtyfour Convergence", sans-serif; */
     font-family: "Gill Sans", sans-serif;
 }
 
@@ -113,8 +111,8 @@ li a:active{
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    flex: 1 1 calc(30%); /* Responsive sizing */
-    min-width: 250px; /* Minimum width for smaller screens */
+    flex: 1 1 calc(30%); /* for responsive sizing */
+    min-width: 250px; /* minimum width for smaller screens */
 }
 
 .program h2 {
@@ -132,4 +130,58 @@ li a:active{
 
 .program a:hover {
     text-decoration: underline;
+}
+
+/* media query for mobile screens */
+@media (max-width: 400px) {
+    .main {
+        height: auto;
+        padding: 20px;
+    }
+
+    .content-pic h2 {
+        font-size: 2em; /* smaller font */
+    }
+
+    .content-pic h3 {
+        font-size: 1em;
+    }
+
+    .content-pic .par {
+        font-size: 0.9em;
+        padding-bottom: 10px;
+        margin: 0vh 10vw;
+    }
+
+    .content-pic .cn {
+        width: 100%;
+        font-size: 0.9em;
+        height: 40px;
+    }
+
+}
+
+/* Larger screens (min-width: 1500px) */
+@media (min-width: 1500px) {
+    .main {
+        padding: 60px;
+    }
+
+    .content-pic h2 {
+        font-size: 3.5em;
+    }
+
+    .content-pic h3 {
+        font-size: 1.5em;
+    }
+
+    .content-pic .par {
+        font-size: 1.2em;
+    }
+
+    .content-pic .cn {
+        width: 200px;
+        height: 55px;
+        font-size: 1.1em;
+    }
 }
