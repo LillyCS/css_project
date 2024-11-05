@@ -4,13 +4,22 @@ body{
 }
 
 .main{
-    width: auto;
+    width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../images/Catherine-Jason-Sinn-1920x400-1.jpg);
     background-position: center;
     background-size: cover;
     height: 65vh;
+   
     color:white;
     padding-left: 50px;
+}
+
+@media (max-width: 480px) {
+    .main {
+        background-size: contain;
+        height: 65vh; 
+        padding-left: 20px;
+    }
 }
 
 h1{
@@ -42,22 +51,24 @@ h1{
 
 .content-pic .par{
     letter-spacing: 1.2px;
-    /* padding-bottom: 15px; */
 }
 
-.content-pic .cn{
+/* button styling */
+.cn {
+    display: inline-block; /* make anchor behave like button */
     width: 180px;
     height: 50px;
-    background: #637488;
-    border: none;
+    background-color: #637488;
+    color: white;
     font-size: 18px;
+    text-align: center;
+    line-height: 50px;
     border-radius: 10px;
-    cursor: pointer;
-    transition: .2s ease;
-    
+    text-decoration: none; /* gets rid of underline */
+    transition: background-color 0.2s ease;
 }
 
-.content-pic .cn a{
+.content-pic a{
     text-decoration: none;
     color: white;
 }
