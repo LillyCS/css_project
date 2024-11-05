@@ -34,12 +34,20 @@ h1{
 
 h2{
     text-align: center;
+    background-color: tan;
+}
+
+#dei{
+    margin: 0vh 10vw;
 }
 
 #aboutSection{
     margin-bottom: 5vh 10vw;
+    margin: 0vh 10vw;
 }
 
 #offer {
+    margin: 0vh 10vw;
     margin-bottom: 10vh;
+    
 }
